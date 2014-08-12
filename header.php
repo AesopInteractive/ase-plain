@@ -21,17 +21,17 @@
 	<meta property="og:url" content="<?php echo get_permalink();?>">
 	<meta property="og:title" content="<?php echo get_bloginfo('name');?>">
 	<meta property="og:site_name" content="<?php echo get_bloginfo('name');?>">
-	<meta property="og:description" content="">
+	<meta property="og:description" content="An original story built to showcase what Aesop Story Engine can do when a team of creatives comes together to have some fun.">
 	<meta property="og:type" content="website">
-	<?php // echo ase_get_social_backup_img('property','og', 'fb');?>
+	<?php echo ase_get_social_backup_img('property','og', 'fb');?>
 	<!-- Twitter Meta -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:creator" content="@aesopinteractiv">
 	<meta name="twitter:site" content="@aesopinteractiv">
 	<meta name="twitter:title" content="<?php echo get_bloginfo('name');?>">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:description" content="An original story built to showcase what Aesop Story Engine can do when a team of creatives comes together to have some fun.">
 	<meta name="twitter:domain" content="<?php echo get_permalink();?>">
-	<?php // echo ase_get_social_backup_img('name','twitter', 'twitter');?>
+	<?php echo ase_get_social_backup_img('name','twitter', 'twitter');?>
 
 	<meta property="og:locale" content="en_us">
 	<!--[if lt IE 9]>
